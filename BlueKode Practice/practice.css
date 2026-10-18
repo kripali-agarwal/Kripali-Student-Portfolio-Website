@@ -246,3 +246,14 @@ button:hover {
     background-color: #3730A3;
     border: 1px solid #3730A3;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+    }
+}
