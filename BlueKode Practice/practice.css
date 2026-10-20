@@ -289,3 +289,65 @@ img {
 #greet-button:active {
     transform: scale(0.97);
 }
+
+label[for="name-input"] {
+    display: block;
+    color: #2e3a70;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px auto 8px;
+    text-align: center;
+}
+
+#name-input {
+    display: block;
+    width: 80%;
+    max-width: 450px;
+    padding: 12px;
+    margin: 0 auto 15px;
+    border: 2px solid #abbaeb;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #2e3a70;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#name-input:focus {
+    border-color: #2e5fe4;
+}
+
+#welcome-button {
+    display: block;
+    background-color: #2e5fe4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto 15px;
+    transition: background-color 0.3s ease;
+}
+
+#welcome-button:hover {
+    background-color: #1e43b5;
+}
+
+#welcome-button:active {
+    transform: scale(0.97);
+}
+
+#welcome-message {
+    background-color: #e8edff;
+    color: #2e3a70;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto 25px;
+    max-width: 450px;
+    overflow-wrap: anywhere;
+    min-height: 20px;
+}
