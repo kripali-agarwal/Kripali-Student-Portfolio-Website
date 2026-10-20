@@ -257,3 +257,35 @@ img {
         flex-direction: column;
     }
 }
+
+#greeting {
+    background-color: #e8edff;
+    color: #2e3a70;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto 10px;
+    max-width: 500px;
+}
+
+#greet-button {
+    display: block;
+    background-color: #2e5fe4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px auto 25px;
+    transition: background-color 0.3s ease;
+}
+
+#greet-button:hover {
+    background-color: #1e43b5;
+}
+
+#greet-button:active {
+    transform: scale(0.97);
+}
