@@ -15,6 +15,7 @@ nav {
     padding: 15px 25px;
     border-radius: 15px;
     font-family: Georgia;
+
 }
 
 .logo {
@@ -368,4 +369,8 @@ nav a {
     .socials-container {
         grid-template-columns: 1fr;
     }
+}
+
+a {
+    text-decoration: none;
 }
