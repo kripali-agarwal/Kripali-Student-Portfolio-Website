@@ -30,7 +30,7 @@ nav {
     gap: 10px;
 }
 
-nav button {
+nav a {
     background-color: transparent;
     color: #F1F5F9;
     border: none;
